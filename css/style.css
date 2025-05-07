@@ -5,7 +5,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-size: 5vw;
+    font-size: 16px;
 }
 
 h1, aside, footer {
@@ -62,4 +62,33 @@ footer {
     font-size: 175%;
     width: 75vw;
     height: 8vh;
+}
+
+@media screen and (min-width: 769px) {
+.container {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;;
+}
+
+h1, footer {
+    width: 90vw;
+    height: 12vh;
+}
+
+section {
+    width: 60vw;
+    height: 50vh;
+}
+
+aside {
+    width: 29vw;
+    height: 50vh;
+}
+
+article {
+    width: 55vw;
+    height: 12vh;
+}
+
 }
